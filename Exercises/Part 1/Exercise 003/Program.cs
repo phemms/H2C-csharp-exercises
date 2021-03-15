@@ -6,8 +6,8 @@ namespace exercise_03
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Once upon a time\nI was falling in love\n" +
-                "Now I'm only falling apart");
+            string message = "Passport and floss!";
+            Console.WriteLine(message);
         }
     }
 }
