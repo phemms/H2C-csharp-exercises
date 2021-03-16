@@ -16,7 +16,7 @@ namespace exercise_10
                 + "Once upon a time there was a " + prof + " called " + mssg + "\n" +
                 "On her way to work, " + mssg + " often pondered  what being " + prof + " meant to them\n" +
                  "When you work as a " + prof + " you meet interesting people.\n" + mssg +
-                 " enjoys their work as " + prof + ", The end.");
+                 " enjoys their work as " + prof + ", The end. ");
 
 
         }
