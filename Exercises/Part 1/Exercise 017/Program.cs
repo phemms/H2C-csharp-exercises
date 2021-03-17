@@ -6,7 +6,7 @@ namespace exercise_17
   {
     public static void Main(string[] args)
     {
-            Console.WriteLine("Give the first number!");
+            Console.WriteLine("Give the first number! ");
             string num = Console.ReadLine();
             int firstNum = Convert.ToInt32(num);
             Console.WriteLine("Give the second number!");
