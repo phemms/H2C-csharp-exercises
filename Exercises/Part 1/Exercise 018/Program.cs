@@ -2,13 +2,23 @@
 
 namespace exercise_18
 {
-  class Program
-  {
-    public static void Main(string[] args)
+    class Program
     {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Give the first number!");
+            string num = Console.ReadLine();
+            int firstNum = Convert.ToInt32(num);
+            Console.WriteLine("Give the second number!");
+            num = Console.ReadLine();
+            int secondNum = Convert.ToInt32(num);
+            Console.WriteLine("Give the third number!");
+            num = Console.ReadLine();
+            int thirdNum = Convert.ToInt32(num);
+            int sum = firstNum + secondNum + thirdNum;
+            Console.WriteLine("The sum is " + sum);
 
-      // Write your code here:
 
+        }
     }
-  }
 }
