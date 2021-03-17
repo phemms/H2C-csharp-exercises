@@ -7,8 +7,15 @@ namespace exercise_21
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+            Console.WriteLine("Give the first number!");
+            string num = Console.ReadLine();
+            int firstNum = Convert.ToInt32(num);
+            Console.WriteLine("Give the second number!");
+            num = Console.ReadLine();
+            int secondNum = Convert.ToInt32(num);
+            double avg = (firstNum + secondNum)/2.0;
+            Console.WriteLine("The average is " + avg);
 
-    }
+        }
   }
 }
