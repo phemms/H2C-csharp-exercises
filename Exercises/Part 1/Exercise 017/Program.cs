@@ -6,8 +6,15 @@ namespace exercise_17
   {
     public static void Main(string[] args)
     {
-
-      // Write your code here:
+            Console.WriteLine("Give the first number!");
+            string num = Console.ReadLine();
+            int firstNum = Convert.ToInt32(num);
+            Console.WriteLine("Give the second number!");
+            num = Console.ReadLine();
+            int secondNum = Convert.ToInt32(num);
+            int sum = firstNum + secondNum;
+            Console.WriteLine("The sum is " + sum);
+      
 
     }
   }
