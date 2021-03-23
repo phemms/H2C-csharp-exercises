@@ -16,7 +16,7 @@ namespace exercise_23
             Console.WriteLine(firstNum + " + " + secondNum + " = " + (firstNum+secondNum));
             Console.WriteLine(firstNum + " - " + secondNum + " = " + (firstNum-secondNum));
             Console.WriteLine(firstNum + " * " + secondNum + " = " + firstNum * secondNum);
-            Console.WriteLine(firstNum + " + " + secondNum + " = " + (double)firstNum / secondNum);
+            Console.WriteLine(firstNum + " / " + secondNum + " = " + (double)firstNum / secondNum);
 
         }
   }
