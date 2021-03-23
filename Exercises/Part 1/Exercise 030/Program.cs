@@ -6,8 +6,43 @@ namespace exercise_30
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            Console.WriteLine("Give your percent [0 - 100]:");
+            string userInput = Console.ReadLine();
+            int score = Convert.ToInt32(userInput);
+            if (score < 0)
+            {
+                Console.WriteLine("Impossible");
+            }
 
-    }
+            else if (score < 50)
+            {
+                Console.WriteLine("Fail");
+            }
+            else if (score < 60)
+            {
+                Console.WriteLine("Grade: 1");
+            }
+            else if (score < 70)
+            {
+                Console.WriteLine("Grade: 2");
+            }
+            else if (score < 80)
+            {
+                Console.WriteLine("Grade: 3");
+            }
+            else if (score < 90)
+            {
+                Console.WriteLine("Grade: 4");
+            }
+            else if (score < 100)
+            {
+                Console.WriteLine("Grade: 5");
+            }
+            else
+            {
+                Console.WriteLine("Outstanding");
+            }
+
+        }
   }
 }
