@@ -13,7 +13,10 @@ namespace exercise_21
             Console.WriteLine("Give the second number!");
             num = Console.ReadLine();
             int secondNum = Convert.ToInt32(num);
-            double avg = (firstNum + secondNum)/2.0;
+            Console.WriteLine("Give the third number!");
+            num = Console.ReadLine();
+            int thirdNum = Convert.ToInt32(num);
+            double avg = (firstNum + secondNum + thirdNum)/3.0;
             Console.WriteLine("The average is " + avg);
 
         }
