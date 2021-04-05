@@ -6,12 +6,20 @@ namespace exercise_51
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
+            PrintUntilNumber(3);
 
+
+        }
+
+    public static void PrintUntilNumber(int num)
+        {
+            int i = 1;
+            while (i <= num)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+        }
 
     }
-
-    // Write your method here:
-
-  }
 }
