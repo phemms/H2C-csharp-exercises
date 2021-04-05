@@ -10,7 +10,11 @@ namespace exercise_58
       Console.WriteLine("Smallest: " + answer);
     }
 
-    // Write your method here:
+    public static int Smallest(int num1, int num2)
+        {
+            if (num1 < num2) return num1;
+            else return num2;
+        }
     
   }
 }
