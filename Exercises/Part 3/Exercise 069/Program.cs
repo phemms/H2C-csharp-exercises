@@ -7,6 +7,7 @@ namespace exercise_69
   {
     public static void Main(string[] args)
     {
+     
       List<int> list = new List<int>();
       while (true)
       {
@@ -16,8 +17,18 @@ namespace exercise_69
           break;
         }
         list.Add(input);
+        
       }
+      Console.WriteLine("From where?");
+      int strt = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("To where?");
+      int stp = Convert.ToInt32(Console.ReadLine());
+      foreach (int i in list)
+            {
+                if (i > strt && i < stp) Console.WriteLine(i);
+            }
 
     }
+
   }
 }
