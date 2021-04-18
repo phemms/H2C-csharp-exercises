@@ -23,9 +23,12 @@ namespace exercise_78
       }
       Console.WriteLine("");
 
-      // Implement here
-      // asking for the two indices
-      // and then swapping them
+      int ind1 = Convert.ToInt32(Console.ReadLine());
+      int ind2 = Convert.ToInt32(Console.ReadLine());
+            int num1 = array[ind1];
+            int num2 = array[ind2];
+            array[ind1] = num2;
+            array[ind2] = num1;
 
 
       // DO NOT CHANGE THE FOLLOWING CODE!
