@@ -10,7 +10,13 @@ namespace exercise_95
       // Create Dog.cs and follow the instructions!
 
     }
-  }
+        public class Dog
+        {
+            private string name;
+            private string breed;
+            private int age;
+        }
+    }
 }
 
 
