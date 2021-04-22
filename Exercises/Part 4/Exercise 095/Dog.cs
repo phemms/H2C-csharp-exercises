@@ -3,8 +3,8 @@ namespace Exercise_095
 {
     public class Dog
     {
-        public Dog()
-        {
-        }
+        private string name;
+        private string breed;
+        private int age;
     }
 }
