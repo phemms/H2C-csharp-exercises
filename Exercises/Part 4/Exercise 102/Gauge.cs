@@ -22,6 +22,7 @@ namespace exercise_102
         {
             if (this.value == 5) return true;
             else return false;
+
         }
     }
 }
