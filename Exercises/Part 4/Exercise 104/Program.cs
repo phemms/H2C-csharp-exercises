@@ -13,8 +13,12 @@ namespace exercise_104
       Multiplier multiplyByFour = new Multiplier(4);
 
       Console.WriteLine("multiplyByFour.Multiply(2): " + multiplyByFour.Multiply(2));
-      Console.WriteLine("multiplyByThree.Multiply(1): " + multiplyByThree.Multiply(1));
-      Console.WriteLine("multiplyByFour.Multiply(1): " + multiplyByFour.Multiply(1));
+      Multiplier multiplyBySix = new Multiplier(6);
+      Console.WriteLine("multiplyBySix.Multiply(1): " + multiplyBySix.Multiply(1));
+      Multiplier multiplyByEight = new Multiplier(8);
+      Console.WriteLine("multiplyByEight.Multiply(1): " + multiplyByEight.Multiply(1));
+      Console.WriteLine("multiplyByEight.Multiply(3): " + multiplyByEight.Multiply(3));
+       
     }
   }
 }
