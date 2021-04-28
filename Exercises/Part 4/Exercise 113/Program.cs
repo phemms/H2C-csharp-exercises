@@ -33,7 +33,7 @@ namespace exercise_113
             {
                 if (s == "everything")
                     Console.WriteLine(b);
-                else if (s == "Title")
+                else if (s == "title")
                     Console.WriteLine(b.name);
                 else
                     break;
