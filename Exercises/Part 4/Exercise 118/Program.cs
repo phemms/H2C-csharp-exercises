@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace exercise_118
@@ -11,10 +12,10 @@ namespace exercise_118
       Console.WriteLine("Name of the file:");
       string file = Console.ReadLine();
 
-      // DO NOT TOUCH THE CODE ABOVE!
-      // implement reading the file here;
-      
+            // DO NOT TOUCH THE CODE ABOVE!
+            // implement reading the file here;
 
+            string names = File.ReadAllText(file);
 
 
       // DO NOT TOUCH THE CODE BELOW!
