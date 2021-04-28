@@ -7,8 +7,13 @@ namespace exercise_116
   {
     public static void Main(string[] args)
     {
-      // Read the file data.txt and print the text from it as it is
-      // You can use either File.ReadAllText or File.ReadAllLines
+            // Read the file data.txt and print the text from it as it is
+            // You can use either File.ReadAllText or File.ReadAllLines
+            string [] text = File.ReadAllLines("data.txt");
+            foreach(string txt in text)
+            {
+                Console.WriteLine(txt);
+            }
       
     }
   }
