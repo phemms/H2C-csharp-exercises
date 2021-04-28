@@ -7,7 +7,10 @@ namespace exercise_117
   {
     public static void Main(string[] args)
     {
-      // Ask the user for the file name and print the content of the file
+            // Ask the user for the file name and print the content of the file
+            Console.WriteLine("Which content should be printed? ");
+            string content = File.ReadAllText(Console.ReadLine());
+            Console.WriteLine(content);
 
       
     }
