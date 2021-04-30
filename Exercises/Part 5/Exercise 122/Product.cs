@@ -8,13 +8,26 @@ namespace exercise_122
     private int weight;
 
     // CREATE YOUR CONSTRUCTORS HERE
+    public Product(string name) :this(name, "shelf")
+        {
+            
+        }
+     public Product(string name, string location): this(name, 1)
+        {
+            this.location = location;
+        }
+     public Product(string name, int weight)
+        {
+            this.name = name;
+            this.location = "warehouse";
+            this.weight = weight;
+        }
 
 
 
 
-
-    // DO NOT TOUCH THIS
-    public override string ToString()
+        // DO NOT TOUCH THIS
+        public override string ToString()
     {
       return $"{this.name} ({this.weight} kg) can be found from the {this.location}.";
     }
